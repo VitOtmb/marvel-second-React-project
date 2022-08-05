@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/marvel-second-React-project/static/css/main.ffb3d649.chunk.css",
-    "main.js": "/marvel-second-React-project/static/js/main.c57f6ddd.chunk.js",
-    "main.js.map": "/marvel-second-React-project/static/js/main.c57f6ddd.chunk.js.map",
+    "main.css": "/marvel-second-React-project/static/css/main.bf7134e3.chunk.css",
+    "main.js": "/marvel-second-React-project/static/js/main.31eb7eed.chunk.js",
+    "main.js.map": "/marvel-second-React-project/static/js/main.31eb7eed.chunk.js.map",
     "runtime-main.js": "/marvel-second-React-project/static/js/runtime-main.1156f1e6.js",
     "runtime-main.js.map": "/marvel-second-React-project/static/js/runtime-main.1156f1e6.js.map",
     "static/js/2.5e8bb286.chunk.js": "/marvel-second-React-project/static/js/2.5e8bb286.chunk.js",
     "static/js/2.5e8bb286.chunk.js.map": "/marvel-second-React-project/static/js/2.5e8bb286.chunk.js.map",
     "index.html": "/marvel-second-React-project/index.html",
-    "static/css/main.ffb3d649.chunk.css.map": "/marvel-second-React-project/static/css/main.ffb3d649.chunk.css.map",
+    "static/css/main.bf7134e3.chunk.css.map": "/marvel-second-React-project/static/css/main.bf7134e3.chunk.css.map",
     "static/js/2.5e8bb286.chunk.js.LICENSE.txt": "/marvel-second-React-project/static/js/2.5e8bb286.chunk.js.LICENSE.txt",
     "static/media/error.42292aa1.gif": "/marvel-second-React-project/static/media/error.42292aa1.gif",
     "static/media/mjolnir.61f31e18.png": "/marvel-second-React-project/static/media/mjolnir.61f31e18.png",
@@ -17,7 +17,7 @@
   "entrypoints": [
     "static/js/runtime-main.1156f1e6.js",
     "static/js/2.5e8bb286.chunk.js",
-    "static/css/main.ffb3d649.chunk.css",
-    "static/js/main.c57f6ddd.chunk.js"
+    "static/css/main.bf7134e3.chunk.css",
+    "static/js/main.31eb7eed.chunk.js"
   ]
 }
