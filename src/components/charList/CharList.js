@@ -20,25 +20,11 @@ class CharsList extends Component {
 
 	componentDidMount() {
 		this.onRequest();
-		window.addEventListener('scroll', () => {
-			let scrollHeight = Math.max(
-				(document.documentElement.scrollHeight, document.body.scrollHeight)
-			);
-			if (Math.floor(window.scrollY + document.documentElement.clientHeight) >= scrollHeight) {
-				this.onRequest(this.state.offset);
-			}
-		});
+		window.addEventListener('scroll', () => this.onLoadCharsByScroll());
 	}
 
 	componentWillUnmount() {
-		window.addEventListener('scroll', () => {
-			let scrollHeight = Math.max(
-				(document.documentElement.scrollHeight, document.body.scrollHeight)
-			);
-			if (Math.floor(window.scrollY + document.documentElement.clientHeight) >= scrollHeight) {
-				this.onRequest(this.state.offset);
-			}
-		});
+		window.removeEventListener('scroll', () => this.onLoadCharsByScroll());
 	}
 
 	// Метод отвечает за запрос на сервер
@@ -73,6 +59,16 @@ class CharsList extends Component {
 
 	onError = () => {
 		this.setState({ loading: false, error: true });
+	};
+
+	onLoadCharsByScroll = () => {
+		let scrollHeight = Math.max(
+			(document.documentElement.scrollHeight, document.body.scrollHeight)
+		);
+
+		if (Math.floor(window.scrollY + document.documentElement.clientHeight) >= scrollHeight) {
+			this.onRequest(this.state.offset);
+		}
 	};
 	// массив элементов li со страницы
 	itemRefs = [];
